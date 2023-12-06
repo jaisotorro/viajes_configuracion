@@ -34,7 +34,7 @@ eureka:
   client:
     register-with-eureka: false
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://192.168.43.170:9761/eureka
 
 
 
