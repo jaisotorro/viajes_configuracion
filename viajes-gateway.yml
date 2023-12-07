@@ -33,7 +33,7 @@ server:
 eureka:
   client:
     register-with-eureka: false
-    service-url:
+    serviceUrl:
       defaultZone: http://192.168.43.170:9761/eureka
 
 
