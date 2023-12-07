@@ -23,4 +23,4 @@ springdoc:
 eureka: 
   client:
     service-url:
-      defaultZone=http: //192.168.43.170:9760
+      defaultZone=http: //pensive_clarke:8761
