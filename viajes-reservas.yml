@@ -24,12 +24,6 @@ eureka:
       defaultZone: http://192.168.43.170:9761/eureka 
   instance:
     hostname: 192.168.43.170 # Necesaria para que el Gateway lo localice a través su registro en Eureka (IP de la máquina donde residirá)         
-# Instancias
-    # Instancia 1
-    instance-id=instancia_01
-    # Instancia 2
-    #instance-id=instancia_02
 server:
-  port: 8101 #Instancia 1
-  #port: 8102 #Instancia 2
+  port: 8101
   
