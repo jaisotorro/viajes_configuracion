@@ -24,6 +24,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://192.168.43.170:9761/eureka
-  # Añadida para probar
+  # Necesaria para que el Gateway lo localice a través su registro en Eureka (IP de la máquina donde residirá)
   instance:
-    hostname: localhost
+    hostname: 192.168.43.170
