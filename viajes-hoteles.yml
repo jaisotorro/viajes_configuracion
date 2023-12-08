@@ -26,5 +26,4 @@ eureka:
       defaultZone: http://192.168.43.170:9761/eureka
   # Añadida para probar
   instance:
-    hostname: 192.168.43.170
-
+    hostname: localhost
