@@ -24,7 +24,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://192.168.43.170:9761/eureka
-  # Añadida para probar > no funciona, la comento
-  #instance:
-    #hostname: 192.168.43.170
+  # Añadida para probar
+  instance:
+    hostname: 192.168.43.170
 
