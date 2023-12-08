@@ -25,12 +25,12 @@ eureka:
     hostname: 192.168.43.170      
 # Instancias
     # Instancia 1
-    instance-id: instancia_01
+    #instance-id: instancia_01
     # Instancia 2
-    #instance-id: instancia_02
+    instance-id: instancia_02
 server:
-  port: 8091 #Instancia 1
-  #port: 8092 #Instancia 2
+  #port: 8091 #Instancia 1
+  port: 8092 #Instancia 2
   servlet:
     context-path: /viajes
     
