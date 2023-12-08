@@ -22,8 +22,8 @@ springdoc:
 # Registro/descubrimiento 
 eureka: 
   client:
-    service-url:
-      defaultZone=http: //192.168.43.170:8761/eureka
+    serviceUrl:
+      defaultZone: http: //192.168.43.170:8761/eureka
 # Necesaria para que el Gateway lo localice a través su registro en Eureka (IP de la máquina donde residirá)
   instance:
     hostname: 192.168.43.170      
